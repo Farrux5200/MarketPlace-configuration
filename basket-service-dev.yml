@@ -10,6 +10,8 @@ spring:
     show-sql: true
 server:
   port: 9061
+  servlet:
+    context-path: /basket-service
 
 feign:
   client:

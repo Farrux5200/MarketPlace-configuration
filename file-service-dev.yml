@@ -10,6 +10,8 @@ spring:
     show-sql: true
 server:
   port: 9041
+  servlet:
+    context-service: /file-service
 
 feign:
   client:

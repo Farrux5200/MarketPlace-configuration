@@ -10,7 +10,8 @@ spring:
     show-sql: true
 server:
   port: 9031
-
+  servlet:
+    context-path: /foreigndebt-service
 feign:
   client:
     config:
